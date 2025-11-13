@@ -26,24 +26,24 @@
 # print(clean_strings)
 
 #6)Generate a 2D list (matrix) that represents a multiplication table from 1 to n
-n=3
-output =[[i * j for j in range(1, n+1)] for i in range(1, n+1)]
-print(output)
-count=0
-for lst in output:
-    count+=1
-    i=1
-    for num in lst:
-        print(f"{count}x {i}={num}")
-        i+=1
+# n=3
+# output =[[i * j for j in range(1, n+1)] for i in range(1, n+1)]
+# print(output)
+# count=0
+# for lst in output:
+#     count+=1
+#     i=1
+#     for num in lst:
+#         print(f"{count}x {i}={num}")
+#         i+=1
 
 
 # #7)Given a 2D list (list of lists), return a flattened list containing all the elements.
-# input=[[1, 2], [3, 4], [5]]
-# list1=list2=[]
-# # for i in input:
-# #     for j in i:
-# #         list1.append(j)
-# # print(list1)
-# list2=[j for i in input for j in i]
-# print(list2)
+input=[[1, 2], [3, 4], [5]]
+list1=list2=[]
+# for i in input:
+#     for j in i:
+#         list1.append(j)
+# print(list1)
+list2=[j for i in input ]
+print(list2)
