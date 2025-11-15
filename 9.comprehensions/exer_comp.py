@@ -39,11 +39,11 @@
 
 
 # #7)Given a 2D list (list of lists), return a flattened list containing all the elements.
-input=[[1, 2], [3, 4], [5]]
-list1=list2=[]
-# for i in input:
-#     for j in i:
-#         list1.append(j)
-# print(list1)
-list2=[j for i in input ]
-print(list2)
+# input=[[1, 2], [3, 4], [5]]
+# list1=list2=[]
+# # for i in input:
+# #     for j in i:
+# #         list1.append(j)
+# # print(list1)
+# list2=[j for i in input ]
+# print(list2)
