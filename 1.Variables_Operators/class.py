@@ -4,13 +4,15 @@ print("Hello World");
 #2
 name="David"
 age=25
-print("My name is ",name);
+print("My name is ",name,"of age",age);
 print(f"My name is {name} of age {age}");
 
 #3
-num=str(7);
-print(num+num);
+num=str(79)
+name="kavin "
+print(num+num)
 print(num*3)
+print(name*2)
 
 #4
 a,b,c=3,4,5

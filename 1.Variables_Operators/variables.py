@@ -1,3 +1,7 @@
+name="david";
+age=25;
+print("Name is", name, "of aged",age);
+
 #a= input("Enter a value :")
 #ab=int(a);
 # a=20
@@ -63,5 +67,5 @@ chosen=1
 #     print("Rotating in while")
 #     i=i+2
 
-x,y = input("Enter your name and age: ").split()
-print("Hi",x, "you are", y)
+# x,y = input("Enter your name and age: ").split()
+# print("Hi",x, "you are", y)
