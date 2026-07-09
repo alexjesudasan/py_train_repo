@@ -47,3 +47,7 @@ score2 = 90
 score3 = 95
 average = (score1 + score2 + score3) / 3
 print("The average test score is:", average)
+
+#11
+english,tamil,maths,science,social_science=70,80,90,93,50
+print("My score in Maths is :", maths)
